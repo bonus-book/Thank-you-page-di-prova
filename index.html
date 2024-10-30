@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grazie per il tuo acquisto!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Grazie del tuo acquisto!</h1>
+            <p>Scopri i tuoi contenuti bonus esclusivi per rendere la tua casa più sicura</p>
+        </div>
+
+        <div class="video-section">
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <video id="mainVideo" 
+                           controls 
+                           preload="metadata" 
+                           poster="/api/placeholder/1280/720"
+                           controlsList="nodownload nofullscreen noremoteplayback" 
+                           disablePictureInPicture
+                           playsinline
+                           webkit-playsinline
+                           x5-playsinline>
+                        <source src="video-prova2.mp4" type="video/mp4">
+                        Il tuo browser non supporta il tag video.
+                    </video>
+                </div>
+                <div class="video-title">
+                    <h2>Video di Benvenuto</h2>
+                    <p>Guarda questo video introduttivo per scoprire tutti i contenuti bonus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bonus-section">
+            <div class="bonus-card">
+                <h3>Checklist Professionale</h3>
+                <p>La guida definitiva per verificare ogni aspetto della sicurezza della tua abitazione, creata da esperti del settore.</p>
+                <a href="docs/checklist.pdf" class="download-btn" target="_blank" download>
+                    <i class="fas fa-shield-alt icon"></i>Scarica Ora
+                </a>
+            </div>
+
+            <div class="bonus-card">
+                <h3>Video Masterclass</h3>
+                <p>Una serie completa di video tutorial professionali per l'installazione e la configurazione dei sistemi di sicurezza.</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="download-btn" target="_blank">
+                    <i class="fas fa-play-circle icon"></i>Guarda su YouTube
+                </a>
+            </div>
+
+            <div class="bonus-card">
+                <h3>Piano di Emergenza</h3>
+                <p>Template personalizzabile per creare il tuo piano di emergenza familiare e mantenere i tuoi cari al sicuro.</p>
+                <a href="docs/piano-emergenza.pdf" class="download-btn" target="_blank" download>
+                    <i class="fas fa-file-shield icon"></i>Ottieni
+                </a>
+            </div>
+
+            <div class="bonus-card">
+                <h3>Guida Manutenzione</h3>
+                <p>Calendario interattivo e checklist complete per la manutenzione periodica di tutti i tuoi sistemi di sicurezza.</p>
+                <a href="docs/guida-manutenzione.pdf" class="download-btn" target="_blank" download>
+                    <i class="fas fa-wrench icon"></i>Accedi
+                </a>
+            </div>
+        </div>
+
+        <div class="review-banner">
+            <div class="review-content">
+                <h3>Grazie per aver scelto il nostro prodotto!</h3>
+                <p>La tua opinione è importante per noi. Ci aiuteresti con una recensione?</p>
+                <a href="https://tuolink-recensione.com" class="review-btn" target="_blank">
+                    <i class="fas fa-star icon"></i>Lascia una Recensione
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
